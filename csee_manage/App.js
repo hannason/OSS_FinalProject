@@ -10,49 +10,56 @@ const styles = StyleSheet.create({
   },
   header :{
     height : 80,
-    justifyContent : 'center',
+    flexDirection : 'row',
+    justifyContent : 'space-between',
     alignItems: 'center',
-    backgroundColor: 'red',
+    paddingHorizontal : 10,
+    backgroundColor: '#1363DF',
   },
   headerText : {
     fontWeight : 'bold',
     fontSize : 40,
+    color : '#DFF6FF',
   },
   contents :{
     flex : 1,
-    paddingTop : 15,
-    backgroundColor: 'gray',
+    paddingTop : 5,
+    backgroundColor: '#DFF6FF',
   },
   category :{
     flex : 1,
     flexDirection : 'row',    
     alignItems: 'center',
     justifyContent : 'space-between',
-    backgroundColor: 'yellow',
+    backgroundColor: '#47B5FF',
     paddingHorizontal : 15,
     paddingVertical : 5,
     marginVertical : 1,
+    marginHorizontal : 5,
+    borderRadius : 10,
   },
   categoryText :{
     fontWeight : 'bold',
     fontSize : 30,
-    backgroundColor: 'pink',
+    color : '#DFF6FF',
   },
   categoryIcon :{
     flexDirection : 'row',
     alignItems: 'center', 
     justifyContent : 'center',
-    backgroundColor: 'pink',
   },
   data : {
     flex : 1,
-    backgroundColor: 'red',
+    backgroundColor: '#DFF6FF',
     paddingHorizontal : 15,
     paddingVertical : 2,
     marginVertical : 1,
+    marginHorizontal : 5,
   },
   dataText : {
     fontSize : 20,
+    color : '#06283D',
+    fontWeight : 'bold',
   },
 });
 const DATA = [
@@ -63,7 +70,9 @@ const DATA = [
   {title: '가공품',data:['햄', '옥수수', '참치', '김']},
   {title: '기타', data: ['빵']}
 ];
+
 export default class mainScreen extends Component {
+
   render() {
     return (
       <SafeAreaView style={styles.container} >
@@ -72,7 +81,9 @@ export default class mainScreen extends Component {
          />
 
         <View style={styles.header}>
+          <Icon name="camera" size={25} style={{paddingHorizontal : 10, paddingVertical : 5,  color: 'transparent',}}/>
           <Text style={styles.headerText}>장보고 레시피</Text>
+          <Icon name="camera" size={25} style={{paddingHorizontal : 10, paddingVertical : 5,  color: 'white',}}/>
         </View>
 
         <View style={styles.contents}>
@@ -82,8 +93,8 @@ export default class mainScreen extends Component {
                       <View style={styles.category}>
                         <Text style={styles.categoryText}>{section.title}</Text>
                         <View style={styles.categoryIcon}>
-                          <Icon name="edit" size={22} style={{paddingHorizontal : 10, paddingVertical : 5,  backgroundColor: 'white',}}/>
-                          <Icon name="trash" size={22} style={{paddingHorizontal : 10, paddingVertical : 5, backgroundColor: 'white',}}/>
+                          <Icon name="edit" size={22} style={{paddingHorizontal : 10, paddingVertical : 5,  color: 'white',}}/>
+                          <Icon name="trash" size={22} style={{paddingHorizontal : 10, paddingVertical : 5, color: 'white',}}/>
                         </View>
                       </View>
                       }

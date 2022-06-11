@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "232598399233",
+    "project_id": "ossfinal-25dbc",
+    "storage_bucket": "ossfinal-25dbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232598399233:android:482fa3c5aa465c56029300",
+        "android_client_info": {
+          "package_name": "com.csee_manage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232598399233-1v295h74vi8mtljonu92a8beflbbcu1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2mtQDDTA-rqIuZQNTb6a5b3F0CBxj4Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232598399233-1v295h74vi8mtljonu92a8beflbbcu1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232598399233:android:62425f2d00913b91029300",
+        "android_client_info": {
+          "package_name": "com.facebook.react.tests.gradle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232598399233-1v295h74vi8mtljonu92a8beflbbcu1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2mtQDDTA-rqIuZQNTb6a5b3F0CBxj4Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232598399233-1v295h74vi8mtljonu92a8beflbbcu1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
