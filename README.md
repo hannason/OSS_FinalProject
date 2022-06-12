@@ -4,7 +4,7 @@
 This is an application that manages the food list anywhere.
 
 <h3>Why is this project useful</h3>
-1.You don't have to look into the refrigerator to know what food to buy.\r\n
+1.You don't have to look into the refrigerator to know what food to buy.'\n'
 2.You can purchase only the food you need for the recipe through this application.\r\n
 3.It can prevent your unnecessary food consumption.\r\n
 4.It is easy to use, so anyone from their 20s to 80s can use it.\r\n
