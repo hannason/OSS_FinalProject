@@ -17,15 +17,14 @@ This is an application that manages the food list anywhere.
 <h3>How to get started</h3>
 -install nodejs\r\n
   (Please refer to this page : http://www.nodejs.org)
-₩₩₩c
+```
 cd ${YOUR_PATH}/OSS_FinalProject/csee_manage
-₩₩₩
-
-₩₩₩c
+```
+```
 sudo npm install expo-cli
-₩₩₩
-₩₩₩c
+```
+```
 sudo npm start
-₩₩₩
+```
 <h3>get more help, if needed</h3>
 For more information about react-native, visit the reactnative homepage at  https://reactnative.dev/\r\n
